@@ -8,7 +8,7 @@ DROPLIT = 4
 Rostock MAX v3 = 5
 */
 // ### Define your Printer Model here! ###
-#define PRINTER 5
+#define PRINTER 2
 
 // ### Define your motherboard here! ###
 // 301 = RAMBo    302 = MINI RAMBo
@@ -107,7 +107,7 @@ Rostock MAX v3 = 5
 #define PAUSE_END_COMMANDS "G91/nG1 Z-10.0 E5.1 F1500/nG90/n"
 #define EXT0_X_OFFSET 0
 #define EXT0_Y_OFFSET 0
-#define EXT0_STEPS_PER_MM 92.4
+#define EXT0_STEPS_PER_MM 418
 #define EXT0_TEMPSENSOR_TYPE 8
 #define EXT0_TEMPSENSOR_PIN TEMP_0_PIN
 #define EXT0_HEATER_PIN HEATER_0_PIN
@@ -133,10 +133,10 @@ Rostock MAX v3 = 5
 #elif PRINTER == 2  // Rostock MAX v2
 #define EXT0_PID_INTEGRAL_DRIVE_MAX 180
 #define EXT0_PID_INTEGRAL_DRIVE_MIN 80
-#define EXT0_PID_PGAIN_OR_DEAD_TIME 14.50
-#define EXT0_PID_I 0.73
-#define EXT0_PID_D 53.41
-#define EXT0_PID_MAX 235
+#define EXT0_PID_PGAIN_OR_DEAD_TIME 18.9
+#define EXT0_PID_I 1.7
+#define EXT0_PID_D 52.54
+#define EXT0_PID_MAX 245
 #elif PRINTER == 3  // ERIS Delta
 #define EXT0_PID_INTEGRAL_DRIVE_MAX 200
 #define EXT0_PID_INTEGRAL_DRIVE_MIN 120
